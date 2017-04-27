@@ -1,8 +1,8 @@
 This is a Linux recycle tool that function like windows recycle.
 
-Usage:
+Usage: 
 step 1. mv rm.py /bin/rm.py
-step 2. echo "alias rm='/bin/rm.py'" > /etc/bashrc
+step 2. echo "alias rm='/bin/rm.py'" >> /etc/bashrc
 step 3. source /etc/bashrc
 step 4. mkdir -p /data/Recycle
 step 5. mv clean_recycle.sh /root/ 
