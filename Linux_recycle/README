@@ -1,0 +1,10 @@
+This is a Linux recycle tool that function like windows recycle.
+
+Usage:
+step 1. mv rm.py /bin/rm.py
+step 2. echo "alias rm='/bin/rm.py'" > /etc/bashrc
+step 3. source /etc/bashrc
+step 4. mkdir -p /data/Recycle
+step 5. mv clean_recycle.sh /root/ 
+step 6. chmod 777 /data/Recycle
+step 7. echo "1 5 * * 0 /bin/bash /root/clean_recycle.sh" >> /var/spool/cron/crontabs/root
